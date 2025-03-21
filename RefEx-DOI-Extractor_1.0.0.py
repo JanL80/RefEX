@@ -117,7 +117,7 @@ def main(input_csv_path, output_csv_path):
             reference_text = re.sub(r'^\s*\d{1,3}[.\)]\s*', '', input_reference_text)
             doi = get_doi_from_crossref(reference_text)                                 ### Get the DOI from CrossRef
             
-            print(f"Ref #{ref_index}: DOI = {doi}")                                     ### Print progress (optional)
+            print(f"Ref #{ref_index}: DOI = {doi}")                                     ### Print progres
 
             results.append([ref_index, reference_text, doi])                            ### Append to results
             
