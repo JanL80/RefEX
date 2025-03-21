@@ -121,7 +121,7 @@ def main(input_csv_path, output_csv_path):
 
             results.append([ref_index, reference_text, doi])                            ### Append to results
             
-            time.sleep(0)                                                               ### Sleeping between requests for respectful usage
+            time.sleep(0)                                                               ### Sleeping between requests
 
     with open(output_csv_path, mode='w', encoding='utf-8', newline='') as outfile:
         writer = csv.writer(outfile, delimiter=';')
