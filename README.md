@@ -49,3 +49,9 @@
 
 
 
+RefEX-DOI-Extractor is distributed under terms that require proper academic and professional citation. 
+By using any portion of this software in your research, publication, presentation, or any public work, 
+you agree to include the following citation:
+
+Leodolter, J. (2025) ‘RefEX-DOI-Extractor’, GitHub. Available at: https://github.com/JanL80/RefEX-DOI-Extractor. 
+
